@@ -1,0 +1,19 @@
+{
+  "name": "piet-project",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickvanewijk/piet-project"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/rickvanewijk/piet-project/issues"
+  },
+  "homepage": "https://github.com/rickvanewijk/piet-project",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
