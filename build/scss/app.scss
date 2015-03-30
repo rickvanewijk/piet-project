@@ -1,21 +1,54 @@
+* {
+	box-sizing: border-box;
+	// https://css-tricks.com/box-sizing/
+}
 html, body {
-	width: 800px;
 	font-size: 1rem;
 	line-height: 1;
 	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 }
 
-image {
-	height: 100px;
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header {
+	background: url(http://gebiedscooperatie.info/wp-content/uploads/2014/12/animaatjes-natuur-37835.jpg) center bottom no-repeat;
+	background-size: cover;
+	height: 200px;
 }
 
 nav {
-	background-color: f5f5f5;
-	display: block;
-	border: 1px solid #000000;
-	float: left;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #000000;
+	overflow: hidden;
+	text-align: right;
+	ul {
+		list-style: none;
+		margin-bottom: 1rem;
+		display: inline-block;
+		float: right;
+		li {
+			display: inline-block;
+			float: left;
+			margin-right: .5rem;
+		}
+	}
 }
 
+aside {
+	width: 20%;
+	float: left;
+}
 main {
+	width: 80%;
 	float: right;
+	background: silver;
+}
+footer {
+	clear: both;
+	margin-top: 2rem;
+	padding: 1rem 0;
+	background: ghostwhite;
 }
