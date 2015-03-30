@@ -1,0 +1,17 @@
+html, body {
+  width: 800px;
+  font-size: 1rem;
+  line-height: 1;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif; }
+
+image {
+  height: 100px; }
+
+nav {
+  background-color: f5f5f5;
+  display: block;
+  border: 1px solid #000000;
+  float: left; }
+
+main {
+  float: right; }
